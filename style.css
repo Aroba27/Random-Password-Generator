@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #003159;
+    color: #333;
+}
+
+.container {
+    margin: 8%;
+    width: 80%;
+
+}
+
+.container h1 {
+    width: 400px;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 4px solid #007D4D;
+    line-height: 1.15;
+    letter-spacing: 1.8;
+}
+
+.container h1 span {
+    color: #007D4D;
+}
+
+.display {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 450px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+.display img {
+    width: 30px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: -30%;
+    right: 0;
+    background: #fff;
+    border: 2px solid #007D4D;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 60px;
+    background: #007D4D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+input::selection{
+    background: #007D4D;
+    color: #fff;
+}
+.btn img {
+    width: 22px;
+    margin: 10px;
+    margin-right: 0;
+}
